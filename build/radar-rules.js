@@ -2166,6 +2166,11 @@
         docs:"https://docs.rsshub.app/government.html#bei-jing-shi-wei-sheng-jian-kang-wei-yuan-hui",
         source:"/xwzx_20031/:caty",
         target:"/gov/beijing/mhc/:caty" } ] },
+  "customs.gov.cn":{ _name:"中华人民共和国海关总署",
+    www:[ { title:"拍卖信息 / 海关法规",
+        docs:"https://docs.rsshub.app/government.html#zhong-hua-ren-min-gong-he-guo-hai-guan-zong-shu",
+        source:[ "/" ],
+        target:"/gov/customs/list" } ] },
   "deyang.gov.cn":{ _name:"德阳市人民政府",
     ".":[ { title:"德阳市政府公开信息",
         docs:"https://docs.rsshub.app/government.html#de-yang-shi-fu-ren-min-zheng-zheng-fu",
@@ -4591,6 +4596,29 @@
         docs:"https://docs.rsshub.app/social-media.html#picuki-yong-hu",
         source:"/profile/:id",
         target:"/picuki/profile/:id" } ] },
+  "pincong.rocks":{ _name:"品葱",
+    ".":[ { title:"发现",
+        docs:"https://docs.rsshub.app/bbs.html#pin-cong",
+        source:"/",
+        target:(_params, url) => {
+                    const sortMap = {
+                        'sort_type-new': 'new',
+                        'recommend-1': 'recommend',
+                        'sort_type-hot__day2': 'hot',
+                    };
+                    const path = new URL(url).pathname;
+                    const category = (/__category/.test(path) ? path.split('__')[1] : path).replace('category-', '');
+                    const sort = sortMap[/__category/.test(path) ? path.split('__')[0] : 'recommend-1'];
+                    return `/pincong/category/${category}/${sort}`;
+                } },
+      { title:"精选",
+        docs:"https://docs.rsshub.app/bbs.html#pin-cong",
+        source:[ "/hot/:category" ],
+        target:(params) => `/pincong/hot${params.category ? `/${params.category.replace('category-', '')}` : ''}` },
+      { title:"话题",
+        docs:"https://docs.rsshub.app/bbs.html#pin-cong",
+        source:"/topic/:topic",
+        target:"/pincong/topic/:topic" } ] },
   "pku.edu.cn":{ _name:"北京大学",
     admission:[ { title:"硕士招生",
         docs:"https://docs.rsshub.app/university.html#bei-jing-da-xue",
