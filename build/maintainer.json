@@ -149,9 +149,6 @@
     "/acfun/user/video/:uid": [
         "wdssmq"
     ],
-    "/acm-ecnu/contest/:category?": [
-        "a180285"
-    ],
     "/acs/journal/:id": [
         "nczitzk"
     ],
@@ -168,6 +165,9 @@
         "TonyRL"
     ],
     "/agirls/:category?": [
+        "TonyRL"
+    ],
+    "/agora0/pen0": [
         "TonyRL"
     ],
     "/agora0/:category?": [
@@ -1165,6 +1165,12 @@
     "/eastday/sh": [
         "saury"
     ],
+    "/ecnu/acm/contest/:category?": [
+        "a180285"
+    ],
+    "/ecnu/yjs": [
+        "shengmaosu"
+    ],
     "/economist/download": [
         "nczitzk"
     ],
@@ -1291,11 +1297,18 @@
     "/foresightnews/news": [
         "nczitzk"
     ],
+    "/foreverblog/feeds": [
+        "7Wate",
+        "a180285"
+    ],
     "/fortunechina/:category?": [
         "nczitzk"
     ],
     "/fosshub/:id": [
         "nczitzk"
+    ],
+    "/freewechat/profile/:id": [
+        "TonyRL"
     ],
     "/ft/myft/:key": [
         "HenryQW"
@@ -1507,7 +1520,8 @@
     ],
     "/gov/customs/list/:gchannel?": [
         "Jeason0228",
-        "TonyRL"
+        "TonyRL",
+        "he1q"
     ],
     "/gov/fmprc/:category?": [
         "nicolaszf",
@@ -1574,6 +1588,9 @@
     "/gov/pbc/zcyj": [
         "Fatpandac"
     ],
+    "/gov/sasac/:path+": [
+        "TonyRL"
+    ],
     "/gov/stats/:path+": [
         "bigfei"
     ],
@@ -1606,6 +1623,12 @@
     ],
     "/gov/guangdong/tqyb/sncsyjxh": [
         "Fatpandac"
+    ],
+    "/gov/gz/xw/:category": [
+        "drgnchan"
+    ],
+    "/gov/gz/zwgk/:category": [
+        "drgnchan"
     ],
     "/gov/hebei/czt/xwdt/:category?": [
         "nczitzk"
@@ -1681,6 +1704,12 @@
     ],
     "/guangdiu/:query?": [
         "Fatpandac"
+    ],
+    "/guanhai": [
+        "TonyRL"
+    ],
+    "/guanhai/": [
+        "TonyRL"
     ],
     "/guduodata/daily": [
         "Gem1ni"
@@ -3331,6 +3360,9 @@
     "/remnote/changelog": [
         "TonyRL"
     ],
+    "/researchgate/publications/:username": [
+        "nczitzk"
+    ],
     "/reuters/investigates": [
         "LyleLee"
     ],
@@ -3482,6 +3514,17 @@
     ],
     "/shmeea/self-study": [
         "h2ws"
+    ],
+    "/shmtu/jwc/:type": [
+        "imbytecat",
+        "simonsmh"
+    ],
+    "/shmtu/portal/:type": [
+        "imbytecat"
+    ],
+    "/shmtu/www/:type": [
+        "imbytecat",
+        "simonsmh"
     ],
     "/shopback/:store": [
         "nczitzk"
@@ -4012,6 +4055,9 @@
         "SettingDust",
         "Halcao"
     ],
+    "/usepanda/feeds/:id": [
+        "lyrl"
+    ],
     "/ustb/yjsy/news/adma": [
         "DA1Y1"
     ],
@@ -4099,6 +4145,9 @@
     ],
     "/usts/juch/:type?": [
         "Fatpandac"
+    ],
+    "/uw/gix/news/:category": [
+        "dykderrick"
     ],
     "/verfghbw/press/:keyword?": [
         "quinn-dev"
@@ -4774,8 +4823,6 @@
     "/lit/tw/:name?": [],
     "/thu/career": [],
     "/thu/:type": [],
-    "/shmtu/www/:type": [],
-    "/shmtu/jwc/:type": [],
     "/shou/www/:type": [],
     "/swust/jwc/news": [],
     "/swust/jwc/notice/:type?": [],
@@ -5455,7 +5502,6 @@
     "/zkyai": [],
     "/zkyyjs": [],
     "/outele": [],
-    "/ecnuyjs": [],
     "/kaoyan": [],
     "/hustyjs": [],
     "/ccnuyjs": [],
@@ -5947,7 +5993,6 @@
     "/blogs/foreverblog": [],
     "/netflix/newsroom/:category?/:region?": [],
     "/sbs/chinese/:category?/:id?/:dialect?/:language?": [],
-    "/researchgate/publications/:id": [],
     "/questmobile/report/:category?/:label?": [],
     "/rss3/blog": [],
     "/fashionnetwork/news/:sectors?/:categories?/:language?": [],
