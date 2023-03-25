@@ -3714,6 +3714,18 @@
       }
     ]
   },
+  "chiculture.org.hk": {
+    "_name": "通識・現代中國",
+    ".": [
+      {
+        "title": "議題熱話",
+        "docs": "https://docs.rsshub.app/new-media.html#tong-shi-・-xian-dai-zhong-guo",
+        "source": [
+          "/tc/hot-topics"
+        ]
+      }
+    ]
+  },
   "china.com": {
     "_name": "中华网",
     "military": [
@@ -3827,12 +3839,28 @@
     "_name": "中国研究生招生信息网",
     "yz": [
       {
+        "title": "考研热点新闻",
+        "docs": "https://docs.rsshub.app/study.html#zhong-guo-yan-jiu-sheng-zhao-sheng-xin-xi-wang",
+        "source": [
+          "/"
+        ],
+        "target": "/chsi/hotnews"
+      },
+      {
         "title": "考研动态",
         "docs": "https://docs.rsshub.app/study.html#zhong-guo-yan-jiu-sheng-zhao-sheng-xin-xi-wang",
         "source": [
           "/kyzx/kydt"
         ],
         "target": "/chsi/kydt"
+      },
+      {
+        "title": "考研资讯",
+        "docs": "https://docs.rsshub.app/study.html#zhong-guo-yan-jiu-sheng-zhao-sheng-xin-xi-wang",
+        "source": [
+          "/kyzx/:type"
+        ],
+        "target": "/chsi/kyzx/:type"
       }
     ]
   },
@@ -6534,6 +6562,19 @@
       }
     ]
   },
+  "fishshell.com": {
+    "_name": "fish shell",
+    ".": [
+      {
+        "title": "Release Notes",
+        "docs": "https://docs.rsshub.app/program-update.html#fish-shell",
+        "source": [
+          "/"
+        ],
+        "target": "/fishshell"
+      }
+    ]
+  },
   "fjksbm.com": {
     "_name": "福建考试报名网",
     ".": [
@@ -6908,6 +6949,22 @@
           "/"
         ],
         "target": "/gcores/tag/:tag"
+      },
+      {
+        "title": "播客",
+        "docs": "https://docs.rsshub.app/new-media.html#ji-he-wang-bo-ke",
+        "source": [
+          "/radios"
+        ],
+        "target": "/gcores/radios"
+      },
+      {
+        "title": "播客-分类",
+        "docs": "https://docs.rsshub.app/new-media.html#ji-he-wang-bo-ke",
+        "source": [
+          "/categories/:category"
+        ],
+        "target": "/gcores/radios/:category"
       }
     ]
   },
@@ -8420,6 +8477,30 @@
           "/"
         ],
         "target": "/guokr/:channel"
+      }
+    ]
+  },
+  "gzdaily.cn": {
+    "_name": "广州日报",
+    ".": [
+      {
+        "title": "客户端",
+        "docs": "https://docs.rsshub.app/traditional-media.html#guang-zhou-ri-bao",
+        "source": [
+          "/"
+        ]
+      }
+    ]
+  },
+  "gz-cmc.com": {
+    "_name": "广州日报",
+    "huacheng": [
+      {
+        "title": "新花城（广州市融媒体中心）",
+        "docs": "https://docs.rsshub.app/traditional-media.html#guang-zhou-ri-bao",
+        "source": [
+          "/"
+        ]
       }
     ]
   },
@@ -13885,6 +13966,26 @@
       }
     ]
   },
+  "newzmz.com": {
+    "_name": "NEW 字幕组",
+    ".": [
+      {
+        "title": "分类",
+        "docs": "https://docs.rsshub.app/multimedia.html#new-zi-mu-zu",
+        "source": [
+          "/"
+        ],
+        "target": "/newzmz"
+      },
+      {
+        "title": "指定剧集",
+        "docs": "https://docs.rsshub.app/multimedia.html#new-zi-mu-zu",
+        "source": [
+          "/view/:id"
+        ]
+      }
+    ]
+  },
   "nextapple.com": {
     "_name": "壹蘋新聞網",
     "tw": [
@@ -13969,6 +14070,26 @@
           "/"
         ],
         "target": "/ngocn2/:category?"
+      }
+    ]
+  },
+  "nhentai.net": {
+    "_name": "nhentai",
+    ".": [
+      {
+        "title": "分类筛选",
+        "docs": "https://docs.rsshub.app/anime.html#nhentai",
+        "source": [
+          "/:key/:keyword"
+        ],
+        "target": "/nhentai/:key/:keyword"
+      },
+      {
+        "title": "高级搜索",
+        "docs": "https://docs.rsshub.app/anime.html#nhentai",
+        "source": [
+          "/search"
+        ]
       }
     ]
   },
@@ -15855,6 +15976,32 @@
           "/"
         ],
         "target": "/qbittorrent/news"
+      }
+    ]
+  },
+  "qdaily.com": {
+    "_name": "好奇心日报",
+    ".": [
+      {
+        "title": "标签",
+        "docs": "https://docs.rsshub.app/new-media.html#hao-qi-xin-ri-bao",
+        "source": [
+          "/tags/:id"
+        ]
+      },
+      {
+        "title": "栏目",
+        "docs": "https://docs.rsshub.app/new-media.html#hao-qi-xin-ri-bao",
+        "source": [
+          "/special_columns/:id"
+        ]
+      },
+      {
+        "title": "分类",
+        "docs": "https://docs.rsshub.app/new-media.html#hao-qi-xin-ri-bao",
+        "source": [
+          "/categories/:id"
+        ]
       }
     ]
   },
@@ -20070,6 +20217,19 @@
       }
     ]
   },
+  "wanqu.co": {
+    "_name": "湾区日报",
+    ".": [
+      {
+        "title": "最新推荐",
+        "docs": "https://docs.rsshub.app/new-media.html#wan-qu-ri-bao",
+        "source": [
+          "/"
+        ],
+        "target": "/wanqu/news"
+      }
+    ]
+  },
   "warthunder.com": {
     "_name": "War Thunder",
     ".": [
@@ -20814,6 +20974,18 @@
         "docs": "https://docs.rsshub.app/university.html#xi-an-jiao-tong-da-xue",
         "source": [
           "/*"
+        ]
+      }
+    ]
+  },
+  "xkb.com.cn": {
+    "_name": "新快报",
+    ".": [
+      {
+        "title": "新闻",
+        "docs": "https://docs.rsshub.app/traditional-media.html#xin-kuai-bao",
+        "source": [
+          "/"
         ]
       }
     ]
