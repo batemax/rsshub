@@ -365,6 +365,9 @@
         "hoilc",
         "nczitzk"
     ],
+    "/aisixiang/zhuanti/:id": [
+        "nczitzk"
+    ],
     "/ajmide/:id": [
         "Fatpandac"
     ],
@@ -725,10 +728,10 @@
     "/bilibili/user/fav/:uid/:disableEmbed?": [
         "DIYgod"
     ],
-    "/bilibili/user/followers/:uid": [
+    "/bilibili/user/followers/:uid/:loginUid": [
         "Qixingchen"
     ],
-    "/bilibili/user/followings/:uid": [
+    "/bilibili/user/followings/:uid/:loginUid": [
         "Qixingchen"
     ],
     "/bilibili/user/video/:uid/:disableEmbed?": [
@@ -817,6 +820,9 @@
     ],
     "/bjx/huanbao": [
         "zsimple"
+    ],
+    "/blizzard/news/:language?/:category?": [
+        "nczitzk"
     ],
     "/blockbeats/:channel?": [
         "Fatpandac",
@@ -961,6 +967,9 @@
     ],
     "/cau/yjs": [
         "shengmaosu"
+    ],
+    "/cbaigui/:path+": [
+        "nczitzk"
     ],
     "/cbirc/:category?": [
         "JkCheung"
@@ -1437,6 +1446,9 @@
     ],
     "/dhu/xxgk/news": [
         "KiraKiseki"
+    ],
+    "/dhu/yjs/news/:type?": [
+        "fox2049"
     ],
     "/dhu/yjs/zs/:type?": [
         "fox2049"
@@ -2249,6 +2261,9 @@
     "/gov/nrta/news/:category?": [
         "yuxinliu-alex"
     ],
+    "/gov/nrta/dsj/:category?": [
+        "nczitzk"
+    ],
     "/gov/nsfc/news/:type?": [
         "Derekmini",
         "nczitzk"
@@ -2355,6 +2370,9 @@
     ],
     "/gov/shanghai/yjj/:path+": [
         "nczitzk"
+    ],
+    "/gov/shanghai/wgj/:page?": [
+        "gideonsenku"
     ],
     "/gov/shenzhen/hrss/szksy/:caty/:page?": [
         "zlasd"
@@ -3114,25 +3132,28 @@
     "/javbus/en/western/search/:keyword": [
         "nczitzk"
     ],
-    "/javdb/home/:category?/:sort?/:filter?": [
-        "nczitzk"
-    ],
-    "/javdb/search/:keyword?/:filter?": [
-        "nczitzk"
-    ],
-    "/javdb/tags/:query?/:category?": [
-        "nczitzk"
-    ],
     "/javdb/actors/:id/:filter?": [
         "nczitzk"
     ],
+    "/javdb/home/:category?/:sort?/:filter?": [
+        "nczitzk"
+    ],
+    "/javdb/lists/:id/:filter?/:sort?": [
+        "dddepg"
+    ],
     "/javdb/makers/:id/:filter?": [
+        "nczitzk"
+    ],
+    "/javdb/rankings/:category?/:time?": [
+        "nczitzk"
+    ],
+    "/javdb/search/:keyword?/:filter?/:sort?": [
         "nczitzk"
     ],
     "/javdb/series/:id/:filter?": [
         "nczitzk"
     ],
-    "/javdb/rankings/:category?/:time?": [
+    "/javdb/tags/:query?/:category?": [
         "nczitzk"
     ],
     "/javdb/:category?/:sort?/:filter?": [
@@ -3952,6 +3973,9 @@
     "/npm/package/:name": [
         "Fatpandac"
     ],
+    "/npr/:endpoint?": [
+        "bennyyip"
+    ],
     "/ntdtv/:language/:id": [
         "Fatpandac"
     ],
@@ -4137,6 +4161,9 @@
     ],
     "/ouc/it/:type?": [
         "GeoffreyChen777"
+    ],
+    "/ouc/jwc": [
+        "3401797899"
     ],
     "/ouc/yjs": [
         "shengmaosu"
@@ -4403,10 +4430,10 @@
         "miles170"
     ],
     "/qidian/chapter/:id": [
-        "Chingyat"
+        "fuzy112"
     ],
     "/qidian/forum/:id": [
-        "Chingyat"
+        "fuzy112"
     ],
     "/qidian/free/:type?": [
         "LogicJake"
@@ -4735,6 +4762,12 @@
     "/sdzk/:bcid?/:cid?": [
         "nczitzk"
     ],
+    "/sec-in/": [
+        "p7e4"
+    ],
+    "/sec-wiki/weekly": [
+        "p7e4"
+    ],
     "/secnews/index": [
         "kaiili"
     ],
@@ -4821,6 +4854,12 @@
     ],
     "/shoppingdesign/posts": [
         "miles170"
+    ],
+    "/shu/:type?": [
+        "lonelyion"
+    ],
+    "/shu/jwb/:type?": [
+        "tuxinghuan"
     ],
     "/shuiguopai/": [
         "nczitzk"
@@ -5643,6 +5682,9 @@
     ],
     "/v1tx/": [
         "TonyRL"
+    ],
+    "/v2rayshare/": [
+        "77taibai"
     ],
     "/vcb-s/": [
         "cxfksword"
@@ -6529,8 +6571,6 @@
     "/buaa/news/:type": [],
     "/zjut/:type": [],
     "/zjut/design/:type": [],
-    "/shu/:type?": [],
-    "/shu/jwc/:type?": [],
     "/nuc/:type": [],
     "/ahau/cs_news/:type": [],
     "/ahau/jwc/:type": [],
@@ -7284,7 +7324,6 @@
     "/xyplorer/whatsnew": [],
     "/rescuetime/release-notes/:os?": [],
     "/totalcommander/whatsnew": [],
-    "/blizzard/news/:language?/:category?": [],
     "/deepl/blog/:lang?": [],
     "/muchong/journal/:type?": [],
     "/muchong/:id/:type?/:sort?": [],
