@@ -1915,6 +1915,19 @@
       }
     ]
   },
+  "altervista.org": {
+    "_name": "Altervista",
+    "hyp3rlinx": [
+      {
+        "title": "hyp3rlinx blog",
+        "docs": "https://docs.rsshub.app/",
+        "source": [
+          "/"
+        ],
+        "target": "/rsshub/transform/html/http%3A%2F%2Fhyp3rlinx.altervista.org%2F/item=table[border=%221%22]%20tr%20td%20a"
+      }
+    ]
+  },
   "amazon.com": {
     "_name": "Amazon",
     ".": [
@@ -2903,10 +2916,16 @@
         "target": "/bilibili/online"
       },
       {
-        "title": "bilibili热搜",
+        "title": "热搜",
         "docs": "https://docs.rsshub.app/social-media.html#bilibili",
         "source": "/",
         "target": "/bilibili/hot-search"
+      },
+      {
+        "title": "频道排行榜",
+        "docs": "https://docs.rsshub.app/social-media.html#bilibili",
+        "source": "/v/channel/:channelid/",
+        "target": "/bilibili/channel/:channelid/hot"
       }
     ],
     "space": [
@@ -3589,6 +3608,16 @@
           "/"
         ],
         "target": "/bse/:category?/:keyword?"
+      }
+    ]
+  },
+  "bsky.app": {
+    "_name": "Bluesky",
+    ".": [
+      {
+        "title": "关键词",
+        "docs": "https://docs.rsshub.app/social-media.html#bluesky-bsky",
+        "source": "/search"
       }
     ]
   },
@@ -4533,6 +4562,14 @@
           "/:user/:repo/:type/:number"
         ],
         "target": "/github/comments/:user/:repo/:number"
+      },
+      {
+        "title": "Issue & Pull Request comments",
+        "docs": "https://docs.rsshub.app/programming.html#github",
+        "source": [
+          "/:user/:repo/:type"
+        ],
+        "target": "/github/comments/:user/:repo"
       },
       {
         "title": "仓库 Contributors",
@@ -10865,6 +10902,57 @@
       }
     ]
   },
+  "hunau.edu.cn": {
+    "_name": "湖南农业大学",
+    "gfxy": [
+      {
+        "title": "公共管理与法学学院",
+        "docs": "https://docs.rsshub.app/university.html#hu-nan-nong-ye-da-xue",
+        "source": [
+          "/",
+          "tzgg",
+          "/:category"
+        ],
+        "target": "/:category"
+      }
+    ],
+    "ied": [
+      {
+        "title": "国际交流与合作处",
+        "docs": "https://docs.rsshub.app/university.html#hu-nan-nong-ye-da-xue",
+        "source": [
+          "/",
+          "/xwzx/ggtz",
+          "/:type/:category"
+        ],
+        "target": "/:type/:category"
+      }
+    ],
+    "jwc": [
+      {
+        "title": "教务处",
+        "docs": "https://docs.rsshub.app/university.html#hu-nan-nong-ye-da-xue",
+        "source": [
+          "/",
+          "tzgg",
+          "/:category"
+        ],
+        "target": "/:category"
+      }
+    ],
+    "xky": [
+      {
+        "title": "信息与智能科学技术学院",
+        "docs": "https://docs.rsshub.app/university.html#hu-nan-nong-ye-da-xue",
+        "source": [
+          "/",
+          "tzgg_8472",
+          "/:category"
+        ],
+        "target": "/:category"
+      }
+    ]
+  },
   "huoxian.cn": {
     "_name": "火线",
     "zone": [
@@ -17080,6 +17168,14 @@
         "target": "/odaily/newsflash"
       },
       {
+        "title": "搜索快讯",
+        "docs": "https://docs.rsshub.app/new-media.html#odaily-xing-qiu-ri-bao-sou-suo-kuai-xun",
+        "source": [
+          "/search/:keyword"
+        ],
+        "target": "/odaily/search/news/:keyword"
+      },
+      {
         "title": "文章",
         "docs": "https://docs.rsshub.app/new-media.html#odaily-xing-qiu-ri-bao-wen-zhang",
         "source": [
@@ -17118,6 +17214,14 @@
           "/"
         ],
         "target": "/odaily/newsflash"
+      },
+      {
+        "title": "搜索快讯",
+        "docs": "https://docs.rsshub.app/new-media.html#odaily-xing-qiu-ri-bao-sou-suo-kuai-xun",
+        "source": [
+          "/search/:keyword"
+        ],
+        "target": "/odaily/search/news/:keyword"
       },
       {
         "title": "文章",
@@ -17381,17 +17485,6 @@
   },
   "ouc.edu.cn": {
     "_name": "中国海洋大学",
-    "jwc": [
-      {
-        "title": "教务处",
-        "docs": "https://docs.rsshub.app/university.html#zhong-guo-hai-yang-da-xue",
-        "source": [
-          "/",
-          "/6517/list.htm"
-        ],
-        "target": "/ouc/jwc"
-      }
-    ],
     "it": [
       {
         "title": "信息科学与工程学院",
@@ -17410,6 +17503,28 @@
           "/"
         ],
         "target": "/ouc/it/postgraduate"
+      }
+    ],
+    "jwc": [
+      {
+        "title": "教务处",
+        "docs": "https://docs.rsshub.app/university.html#zhong-guo-hai-yang-da-xue",
+        "source": [
+          "/",
+          "/6517/list.htm"
+        ],
+        "target": "/ouc/jwc"
+      }
+    ],
+    "jwgl": [
+      {
+        "title": "选课信息教务通知",
+        "docs": "https://docs.rsshub.app/university.html#zhong-guo-hai-yang-da-xue",
+        "source": [
+          "/cas/login.action",
+          "/public/SchoolNotice.jsp"
+        ],
+        "target": "/ouc/jwgl"
       }
     ],
     "yz": [
@@ -18693,6 +18808,20 @@
       }
     ]
   },
+  "rawkuma.com": {
+    "_name": "Rawkuma",
+    ".": [
+      {
+        "title": "Manga",
+        "docs": "https://docs.rsshub.app/anime.html#rawkuma-manga",
+        "source": [
+          "/manga/:id",
+          "/"
+        ],
+        "target": "/rawkuma/manga/:id"
+      }
+    ]
+  },
   "readhub.cn": {
     "_name": "Readhub",
     ".": [
@@ -19460,6 +19589,20 @@
       }
     ]
   },
+  "sec.today": {
+    "_name": "每日安全",
+    ".": [
+      {
+        "title": "动态",
+        "docs": "https://docs.rsshub.app/",
+        "source": [
+          "/pulses",
+          "/"
+        ],
+        "target": "/rsshub/transform/html/https%3A%2F%2Fsec.today%2Fpulses%2F/item=div[class=\"card-body\"]"
+      }
+    ]
+  },
   "sec-in.com": {
     "_name": "SecIN信息安全技术社区",
     ".": [
@@ -19956,6 +20099,16 @@
         "target": "/shiep/jwc/:id"
       }
     ],
+    "jxfz": [
+      {
+        "title": "电力装备设计与制造虚拟仿真中心",
+        "docs": "https://docs.rsshub.app/university.html#shang-hai-dian-li-da-xue",
+        "source": [
+          "/:id/list.htm"
+        ],
+        "target": "/shiep/jxfz/:id"
+      }
+    ],
     "kczx": [
       {
         "title": "能源电力科创中心",
@@ -20026,6 +20179,16 @@
         "target": "/shiep/news/:id"
       }
     ],
+    "nydlzk": [
+      {
+        "title": "能源电力智库",
+        "docs": "https://docs.rsshub.app/university.html#shang-hai-dian-li-da-xue",
+        "source": [
+          "/:id/list.htm"
+        ],
+        "target": "/shiep/nydlzk/:id"
+      }
+    ],
     "office": [
       {
         "title": "校长办公室（档案馆）",
@@ -20034,6 +20197,16 @@
           "/:id/list.htm"
         ],
         "target": "/shiep/office/:id"
+      }
+    ],
+    "rpstec": [
+      {
+        "title": "国家新能源电力系统实验教学示范中心",
+        "docs": "https://docs.rsshub.app/university.html#shang-hai-dian-li-da-xue",
+        "source": [
+          "/:id/list.htm"
+        ],
+        "target": "/shiep/rpstec/:id"
       }
     ],
     "rsc": [
@@ -20084,6 +20257,16 @@
           "/:id/list.htm"
         ],
         "target": "/shiep/slxy/:id"
+      }
+    ],
+    "spgc": [
+      {
+        "title": "智能发电实验教学中心",
+        "docs": "https://docs.rsshub.app/university.html#shang-hai-dian-li-da-xue",
+        "source": [
+          "/:id/list.htm"
+        ],
+        "target": "/shiep/spgc/:id"
       }
     ],
     "sysyzcglc": [
@@ -20214,6 +20397,16 @@
           "/:id/list.htm"
         ],
         "target": "/shiep/zdhxy/:id"
+      }
+    ],
+    "ztjy": [
+      {
+        "title": "学习路上",
+        "docs": "https://docs.rsshub.app/university.html#shang-hai-dian-li-da-xue",
+        "source": [
+          "/:id/list.htm"
+        ],
+        "target": "/shiep/ztjy/:id"
       }
     ],
     "zs": [
