@@ -11898,6 +11898,17 @@
         "target": "/gxmzu/aitzgg"
       }
     ],
+    "library": [
+      {
+        "title": "图书馆最新消息",
+        "docs": "https://docs.rsshub.app/routes/unversity#guang-xi-min-zu-da-xue-tu-shu-guan-zui-xin-xiao-xi",
+        "source": [
+          "/news/news_list.jsp",
+          "/"
+        ],
+        "target": "/gxmzu/libzxxx"
+      }
+    ],
     "yjs": [
       {
         "title": "研究生院招生公告",
@@ -20108,6 +20119,16 @@
         "source": [
           "/explore"
         ]
+      }
+    ]
+  },
+  "ppy.sh": {
+    "_name": "osu!",
+    "osu": [
+      {
+        "title": "Beatmap Pack",
+        "docs": "https://docs.rsshub.app/routes/game#osu-beatmap-packs",
+        "source": "/beatmaps/packs"
       }
     ]
   },

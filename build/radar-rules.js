@@ -6228,6 +6228,11 @@
         source:[ "/index/tzgg.htm",
           "/" ],
         target:"/gxmzu/aitzgg" } ],
+    library:[ { title:"图书馆最新消息",
+        docs:"https://docs.rsshub.app/routes/unversity#guang-xi-min-zu-da-xue-tu-shu-guan-zui-xin-xiao-xi",
+        source:[ "/news/news_list.jsp",
+          "/" ],
+        target:"/gxmzu/libzxxx" } ],
     yjs:[ { title:"研究生院招生公告",
         docs:"https://docs.rsshub.app/routes/university#guang-xi-min-zu-da-xue-yan-jiu-sheng-yuan-zhao-sheng-gong-gao",
         source:[ "/tzgg/zsgg.htm",
@@ -10807,6 +10812,11 @@
                     const sortType = new URL(url).searchParams.get('projectSort');
                     return sortType ? `/oshwhub/${sortType}` : '';
                 } } ] },
+  "ppy.sh":{ _name:"osu!",
+    osu:[ { title:"Beatmap Pack",
+        docs:"https://docs.rsshub.app/routes/game#osu-beatmap-packs",
+        source:"/beatmaps/packs",
+        target:(params, url) => `https://osu.ppy.sh/beatmaps/packs?type=${new URL(url).searchParams.get('type') ?? 'standard'}` } ] },
   "ouc.edu.cn":{ _name:"中国海洋大学",
     it:[ { title:"信息科学与工程学院",
         docs:"https://docs.rsshub.app/routes/university#zhong-guo-hai-yang-da-xue",
