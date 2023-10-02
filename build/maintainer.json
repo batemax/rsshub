@@ -922,6 +922,9 @@
     "/bookfere/:category": [
         "OdinZhang"
     ],
+    "/booru/mmda/tags/:tags?": [
+        "N78Wy"
+    ],
     "/brave/latest": [
         "nczitzk"
     ],
@@ -1973,6 +1976,21 @@
     "/fantia/user/:id": [
         "nczitzk"
     ],
+    "/farmatters/exclusive/:locale?": [
+        "nczitzk"
+    ],
+    "/farmatters/news/:locale?": [
+        "nczitzk"
+    ],
+    "/farmatters/tag/:id/:locale?": [
+        "nczitzk"
+    ],
+    "/farmatters/wiki/:id/:locale?": [
+        "nczitzk"
+    ],
+    "/farmatters/:locale?": [
+        "nczitzk"
+    ],
     "/fastbull/express-news": [
         "nczitzk"
     ],
@@ -2431,6 +2449,9 @@
     ],
     "/gov/nopss/:path+": [
         "nczitzk"
+    ],
+    "/gov/npc/:caty": [
+        "233yeee"
     ],
     "/gov/nrta/news/:category?": [
         "yuxinliu-alex"
@@ -3933,7 +3954,7 @@
     "/mygopen/:label?": [
         "nczitzk"
     ],
-    "/mymusicsheet/user/sheets/:username/:iso?": [
+    "/mymusicsheet/user/sheets/:username/:iso?/:freeOnly?": [
         "Freddd13"
     ],
     "/mysql/release/:version?": [
@@ -7726,7 +7747,6 @@
     "/weforum/report/:lang?/:year?/:platform?": [],
     "/nobelprize/:caty?": [],
     "/gov/taiwan/mnd": [],
-    "/npc/:caty": [],
     "/ofweek/news": [],
     "/popyard/:caty?": [],
     "/wto/dispute-settlement/:year?": [],
