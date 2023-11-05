@@ -11054,6 +11054,66 @@
       }
     ]
   },
+  "forestry.gov.cn": {
+    "_name": "国家林业和草原局",
+    ".": [
+      {
+        "title": "国家林草科技大讲堂",
+        "docs": "https://docs.rsshub.app/routes/government#guo-jia-lin-ye-he-cao-yuan-ju-guo-jia-lin-cao-ke-ji-da-jiang-tang",
+        "source": [
+          "gjlckjdjt.jhtml"
+        ]
+      },
+      {
+        "title": "国家林草科技大讲堂 - 经济林",
+        "docs": "https://docs.rsshub.app/routes/government#guo-jia-lin-ye-he-cao-yuan-ju-guo-jia-lin-cao-ke-ji-da-jiang-tang",
+        "source": [
+          "jjl.jhtml"
+        ],
+        "target": "/gov/forestry/gjlckjdjt/jjl"
+      },
+      {
+        "title": "国家林草科技大讲堂 - 林木良种",
+        "docs": "https://docs.rsshub.app/routes/government#guo-jia-lin-ye-he-cao-yuan-ju-guo-jia-lin-cao-ke-ji-da-jiang-tang",
+        "source": [
+          "lmlz.jhtml"
+        ],
+        "target": "/gov/forestry/gjlckjdjt/lmlz"
+      },
+      {
+        "title": "国家林草科技大讲堂 - 林下经济",
+        "docs": "https://docs.rsshub.app/routes/government#guo-jia-lin-ye-he-cao-yuan-ju-guo-jia-lin-cao-ke-ji-da-jiang-tang",
+        "source": [
+          "lxjj.jhtml"
+        ],
+        "target": "/gov/forestry/gjlckjdjt/lxjj"
+      },
+      {
+        "title": "国家林草科技大讲堂 - 生态修复",
+        "docs": "https://docs.rsshub.app/routes/government#guo-jia-lin-ye-he-cao-yuan-ju-guo-jia-lin-cao-ke-ji-da-jiang-tang",
+        "source": [
+          "stxf.jhtml"
+        ],
+        "target": "/gov/forestry/gjlckjdjt/stxf"
+      },
+      {
+        "title": "国家林草科技大讲堂 - 用材林",
+        "docs": "https://docs.rsshub.app/routes/government#guo-jia-lin-ye-he-cao-yuan-ju-guo-jia-lin-cao-ke-ji-da-jiang-tang",
+        "source": [
+          "ycl.jhtml"
+        ],
+        "target": "/gov/forestry/gjlckjdjt/ycl"
+      },
+      {
+        "title": "国家林草科技大讲堂 - 其他",
+        "docs": "https://docs.rsshub.app/routes/government#guo-jia-lin-ye-he-cao-yuan-ju-guo-jia-lin-cao-ke-ji-da-jiang-tang",
+        "source": [
+          "qt.jhtml"
+        ],
+        "target": "/gov/forestry/gjlckjdjt/qt"
+      }
+    ]
+  },
   "gaozhou.gov.cn": {
     "_name": "高州市人民政府",
     "www": [
@@ -11248,6 +11308,19 @@
           "/ywdt/:category"
         ],
         "target": "/gov/mee/ywdt/:category"
+      }
+    ]
+  },
+  "mem.gov.cn": {
+    "_name": "应急管理部",
+    "www": [
+      {
+        "title": "事故及灾害查处",
+        "docs": "https://docs.rsshub.app/routes/government#zhong-hua-ren-min-gong-he-guo-ying-ji-guan-li-bu",
+        "source": [
+          "/gk/sgcc/:category"
+        ],
+        "target": "/gov/mem/gk/sgcc/:category"
       }
     ]
   },
@@ -11509,6 +11582,19 @@
           "/redianzhuanti/118742/4122386/4122692/index.html"
         ],
         "target": "/gov/pbc/gzlw"
+      }
+    ]
+  },
+  "samr.gov.cn": {
+    "_name": "国家市场监督管理总局",
+    "xgzlyhd": [
+      {
+        "title": "留言咨询",
+        "docs": "https://docs.rsshub.app/routes/government#guo-jia-shi-chang-jian-du-guan-li-zong-ju",
+        "source": [
+          "/gjjly/index"
+        ],
+        "target": "/gov/samr/xgzlyhd/:category?/:department?"
       }
     ]
   },
@@ -12328,6 +12414,17 @@
         "docs": "https://docs.rsshub.app/routes/university#hang-zhou-dian-zi-ke-ji-da-xue",
         "source": "/6769/list.htm",
         "target": "/hdu/cs/pg"
+      }
+    ]
+  },
+  "hebtv.com": {
+    "_name": "河北网络广播电视台",
+    "web.cmc": [
+      {
+        "title": "农博士在行动",
+        "docs": "https://docs.rsshub.app/routes/traditional-media#he-bei-wang-luo-guang-bo-dian-shi-tai",
+        "source": "/cms/rmt0336/19/19js/st/ds/nmpd/nbszxd/index.shtml",
+        "target": "/hebtv/nbszxd"
       }
     ]
   },
@@ -13859,6 +13956,138 @@
         "source": [
           "/:category/projects"
         ]
+      }
+    ]
+  },
+  "iqilu.com": {
+    "_name": "齐鲁网",
+    "v": [
+      {
+        "title": "电视节目",
+        "docs": "https://docs.rsshub.app/routes/traditional-media#qi-lu-wang-dian-shi-jie-mu",
+        "source": [
+          "/:category*"
+        ]
+      },
+      {
+        "title": "山东新闻联播",
+        "docs": "https://docs.rsshub.app/routes/traditional-media#qi-lu-wang-dian-shi-jie-mu",
+        "source": [
+          "/sdws/sdxwlb"
+        ],
+        "target": "/iqilu/v/sdws/sdxwlb"
+      },
+      {
+        "title": "闪电大视野",
+        "docs": "https://docs.rsshub.app/routes/traditional-media#qi-lu-wang-dian-shi-jie-mu",
+        "source": [
+          "/ggpd/sddsy"
+        ],
+        "target": "/iqilu/v/ggpd/sddsy"
+      },
+      {
+        "title": "山东三农新闻联播",
+        "docs": "https://docs.rsshub.app/routes/traditional-media#qi-lu-wang-dian-shi-jie-mu",
+        "source": [
+          "/nkpd/snxw"
+        ],
+        "target": "/iqilu/v/nkpd/snxw"
+      },
+      {
+        "title": "每日新闻",
+        "docs": "https://docs.rsshub.app/routes/traditional-media#qi-lu-wang-dian-shi-jie-mu",
+        "source": [
+          "/qlpd/mrxw"
+        ],
+        "target": "/iqilu/v/qlpd/mrxw"
+      },
+      {
+        "title": "新闻午班车",
+        "docs": "https://docs.rsshub.app/routes/traditional-media#qi-lu-wang-dian-shi-jie-mu",
+        "source": [
+          "/ggpd/xwwbc"
+        ],
+        "target": "/iqilu/v/ggpd/xwwbc"
+      },
+      {
+        "title": "戏宇宙",
+        "docs": "https://docs.rsshub.app/routes/traditional-media#qi-lu-wang-dian-shi-jie-mu",
+        "source": [
+          "/sdws/xyz/"
+        ],
+        "target": "/iqilu/v/sdws/xyz/"
+      },
+      {
+        "title": "中国礼 中国乐",
+        "docs": "https://docs.rsshub.app/routes/traditional-media#qi-lu-wang-dian-shi-jie-mu",
+        "source": [
+          "/qlpd/zglzgy"
+        ],
+        "target": "/iqilu/v/qlpd/zglzgy"
+      },
+      {
+        "title": "超级语文课",
+        "docs": "https://docs.rsshub.app/routes/traditional-media#qi-lu-wang-dian-shi-jie-mu",
+        "source": [
+          "/sdws/cjywk"
+        ],
+        "target": "/iqilu/v/sdws/cjywk"
+      },
+      {
+        "title": "文物里的山东",
+        "docs": "https://docs.rsshub.app/routes/traditional-media#qi-lu-wang-dian-shi-jie-mu",
+        "source": [
+          "/yspd/wwldsd"
+        ],
+        "target": "/iqilu/v/yspd/wwldsd"
+      },
+      {
+        "title": "拉呱",
+        "docs": "https://docs.rsshub.app/routes/traditional-media#qi-lu-wang-dian-shi-jie-mu",
+        "source": [
+          "/qlpd/l0"
+        ],
+        "target": "/iqilu/v/qlpd/l0"
+      },
+      {
+        "title": "生活帮",
+        "docs": "https://docs.rsshub.app/routes/traditional-media#qi-lu-wang-dian-shi-jie-mu",
+        "source": [
+          "/shpd/shb"
+        ],
+        "target": "/iqilu/v/shpd/shb"
+      },
+      {
+        "title": "快乐大赢家",
+        "docs": "https://docs.rsshub.app/routes/traditional-media#qi-lu-wang-dian-shi-jie-mu",
+        "source": [
+          "/zypd/kldyj"
+        ],
+        "target": "/iqilu/v/zypd/kldyj"
+      },
+      {
+        "title": "乡村季风",
+        "docs": "https://docs.rsshub.app/routes/traditional-media#qi-lu-wang-dian-shi-jie-mu",
+        "source": [
+          "/nkpd/xcjf"
+        ],
+        "target": "/iqilu/v/nkpd/xcjf"
+      },
+      {
+        "title": "健康是1",
+        "docs": "https://docs.rsshub.app/routes/traditional-media#qi-lu-wang-dian-shi-jie-mu",
+        "source": [
+          "/ggpd/jks1"
+        ],
+        "target": "/iqilu/v/ggpd/jks1"
+      },
+      {
+        "title": "此时此刻",
+        "docs": "https://docs.rsshub.app/routes/traditional-media#qi-lu-wang-dian-shi-jie-mu",
+        "source": [
+          "/sdws/cishicike"
+        ],
+        "target": "/iqilu/v/sdws/cishicike"
       }
     ]
   },
@@ -20830,6 +21059,15 @@
           "/"
         ],
         "target": "/pku/cls/lecture"
+      },
+      {
+        "title": "生命科学学院通知公告",
+        "docs": "https://docs.rsshub.app/routes/university#bei-jing-da-xue",
+        "source": [
+          "/homes/Index/news/21/21.html",
+          "/"
+        ],
+        "target": "/pku/cls/announcement"
       }
     ],
     "eecs": [
@@ -29320,6 +29558,20 @@
           "/:category?"
         ],
         "target": "/yomiuri/:category?"
+      }
+    ]
+  },
+  "yomujp.com": {
+    "_name": "日本語多読道場",
+    ".": [
+      {
+        "title": "等级",
+        "docs": "https://docs.rsshub.app/zh/routes/reading#ri-ben-yu-duo-du-dao-chang-deng-ji",
+        "source": [
+          "/",
+          "/:level"
+        ],
+        "target": "/yomujp/:level"
       }
     ]
   },
