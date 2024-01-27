@@ -2222,7 +2222,7 @@
     ".": [
       {
         "title": "Articles",
-        "docs": "https://docs.rsshub.app/routes/en/programming#a-list-apart",
+        "docs": "https://docs.rsshub.app/routes/programming#a-list-apart",
         "source": [
           "/articles/"
         ],
@@ -2230,7 +2230,7 @@
       },
       {
         "title": "Topics",
-        "docs": "https://docs.rsshub.app/routes/en/programming#a-list-apart",
+        "docs": "https://docs.rsshub.app/routes/programming#a-list-apart",
         "source": [
           "/blog/topic/:topic"
         ],
@@ -4032,7 +4032,7 @@
     "www": [
       {
         "title": "Exhibitions",
-        "docs": "https://docs.rsshub.app/routes/en/travel#brooklyn-museum"
+        "docs": "https://docs.rsshub.app/routes/travel#brooklyn-museum"
       }
     ]
   },
@@ -4138,7 +4138,7 @@
     ".": [
       {
         "title": "React Newsletter",
-        "docs": "https://docs.rsshub.app/routes/en/programming#ui-dev-bytes",
+        "docs": "https://docs.rsshub.app/routes/programming#ui-dev-bytes",
         "source": [
           "/issues",
           "/"
@@ -6051,6 +6051,19 @@
       }
     ]
   },
+  "chuanliu.org": {
+    "_name": "川流",
+    ".": [
+      {
+        "title": "严选",
+        "docs": "https://docs.rsshub.app/routes/blog#chuan-liu-yan-xuan",
+        "source": [
+          "/nice"
+        ],
+        "target": "/chuanliu/nice"
+      }
+    ]
+  },
   "ciidbnu.org": {
     "_name": "中国收入分配研究院",
     ".": [
@@ -6662,6 +6675,18 @@
       }
     ]
   },
+  "cntheory.com": {
+    "_name": "理论网",
+    "paper": [
+      {
+        "title": "学习时报",
+        "docs": "https://docs.rsshub.app/routes/traditional-media#li-lun-wang-xue-xi-shi-bao",
+        "source": [
+          "/"
+        ]
+      }
+    ]
+  },
   "codeforces.com": {
     "_name": "Codeforces",
     ".": [
@@ -7047,7 +7072,7 @@
     ".": [
       {
         "title": "User",
-        "docs": "https://docs.rsshub.app/routes/en/social-media#curiouscat",
+        "docs": "https://docs.rsshub.app/routes/social-media#curiouscat",
         "source": [
           "/:id"
         ],
@@ -7175,7 +7200,7 @@
     ".": [
       {
         "title": "Most Discussed",
-        "docs": "https://docs.rsshub.app/routes/en/social-media#daily.dev",
+        "docs": "https://docs.rsshub.app/routes/social-media#daily.dev",
         "source": [
           "/discussed"
         ],
@@ -7183,7 +7208,7 @@
       },
       {
         "title": "Most Upvoted",
-        "docs": "https://docs.rsshub.app/routes/en/social-media#daily.dev",
+        "docs": "https://docs.rsshub.app/routes/social-media#daily.dev",
         "source": [
           "/upvoted"
         ],
@@ -7191,7 +7216,7 @@
       },
       {
         "title": "Popular",
-        "docs": "https://docs.rsshub.app/routes/en/social-media#daily.dev",
+        "docs": "https://docs.rsshub.app/routes/social-media#daily.dev",
         "source": [
           "/popular"
         ],
@@ -7361,7 +7386,7 @@
     ".": [
       {
         "title": "Latest Articles",
-        "docs": "https://docs.rsshub.app/routes/en/new-media#deadline",
+        "docs": "https://docs.rsshub.app/routes/new-media#deadline",
         "source": [
           "/"
         ],
@@ -7564,7 +7589,7 @@
     ".": [
       {
         "title": "Channel Messages",
-        "docs": "https://docs.rsshub.app/routes/en/social-media#discord",
+        "docs": "https://docs.rsshub.app/routes/social-media#discord",
         "source": [
           "/channels/:guildId/:channelId/:messageID",
           "/channels/:guildId/:channelId"
@@ -7806,7 +7831,7 @@
     ".": [
       {
         "title": "News",
-        "docs": "https://docs.rsshub.app/routes/en/traditional-media#dna-india",
+        "docs": "https://docs.rsshub.app/routes/traditional-media#dna-india",
         "source": [
           "/:category"
         ],
@@ -7814,7 +7839,7 @@
       },
       {
         "title": "Topic",
-        "docs": "https://docs.rsshub.app/routes/en/traditional-media#dna-india",
+        "docs": "https://docs.rsshub.app/routes/traditional-media#dna-india",
         "source": [
           "/topic/:topic"
         ],
@@ -9503,7 +9528,7 @@
     ".": [
       {
         "title": "news",
-        "docs": "https://docs.rsshub.app/routes/en/other#fisher-spb",
+        "docs": "https://docs.rsshub.app/routes/other#fisher-spb",
         "source": [
           "/news"
         ],
@@ -9726,7 +9751,7 @@
     ".": [
       {
         "title": "Selected New Books",
-        "docs": "https://docs.rsshub.app/routes/en/reading#free-computer-books",
+        "docs": "https://docs.rsshub.app/routes/reading#free-computer-books",
         "source": [
           "/",
           "/index.html"
@@ -9735,7 +9760,7 @@
       },
       {
         "title": "Current Book List",
-        "docs": "https://docs.rsshub.app/routes/en/reading#free-computer-books",
+        "docs": "https://docs.rsshub.app/routes/reading#free-computer-books",
         "source": [
           "/:category"
         ]
@@ -9773,7 +9798,7 @@
     ".": [
       {
         "title": "myFT personal RSS",
-        "docs": "https://docs.rsshub.app/routes/en/traditional-media#financial-times"
+        "docs": "https://docs.rsshub.app/routes/traditional-media#financial-times"
       }
     ]
   },
@@ -11650,7 +11675,7 @@
     "immi": [
       {
         "title": "Immigration and Citizenship",
-        "docs": "https://docs.rsshub.app/routes/en/government#Australia-Department-of-Home-Affairs",
+        "docs": "https://docs.rsshub.app/routes/government#Australia-Department-of-Home-Affairs",
         "source": "/news-media/archive"
       }
     ]
@@ -15318,7 +15343,7 @@
     ".": [
       {
         "title": "News",
-        "docs": "https://docs.rsshub.app/routes/en/new-media#indians-in-kuwait",
+        "docs": "https://docs.rsshub.app/routes/new-media#indians-in-kuwait",
         "source": [
           "/latest-news",
           "/"
@@ -17298,7 +17323,7 @@
     ".": [
       {
         "title": "Exhibitions",
-        "docs": "https://docs.rsshub.app/routes/en/travel#the-jewish-museum"
+        "docs": "https://docs.rsshub.app/routes/travel#the-jewish-museum"
       }
     ]
   },
@@ -19018,6 +19043,20 @@
       }
     ]
   },
+  "keepass.info": {
+    "_name": "KeePass",
+    ".": [
+      {
+        "title": "News",
+        "docs": "https://docs.rsshub.app/routes/program-update.html#keepass",
+        "source": [
+          "/news/news_all.html",
+          "/"
+        ],
+        "target": "/keepass/news"
+      }
+    ]
+  },
   "kemono.su": {
     "_name": "Kemono",
     ".": [
@@ -19106,7 +19145,7 @@
     ".": [
       {
         "title": "Latest News",
-        "docs": "https://docs.rsshub.app/routes/en/new-media#kuwait-local",
+        "docs": "https://docs.rsshub.app/routes/new-media#kuwait-local",
         "source": [
           "/news/latest",
           "/news",
@@ -19116,7 +19155,7 @@
       },
       {
         "title": "Categorised News",
-        "docs": "https://docs.rsshub.app/routes/en/new-media#kuwait-local",
+        "docs": "https://docs.rsshub.app/routes/new-media#kuwait-local",
         "source": [
           "/news/categories/:category"
         ],
@@ -19152,6 +19191,17 @@
         "docs": "https://docs.rsshub.app/routes/traditional-media#gong-tong-wang-zui-xin-bao-dao",
         "source": "/news/:keyword",
         "target": "/kyodonews/tchina/:keyword?"
+      }
+    ]
+  },
+  "laimanhua8.com": {
+    "_name": "来漫画",
+    "www": [
+      {
+        "title": "漫画列表",
+        "docs": "https://docs.rsshub.app/routes/anime#lai-man-hua",
+        "source": "/kanmanhua/:id",
+        "target": "/laimanhua/:id"
       }
     ]
   },
@@ -19224,7 +19274,7 @@
     ".": [
       {
         "title": "Data Tracker Feed",
-        "docs": "https://docs.rsshub.app/routes/en/other#layoffs-fyi",
+        "docs": "https://docs.rsshub.app/routes/other#layoffs-fyi",
         "source": "/",
         "target": "/layoffs"
       }
@@ -19443,7 +19493,7 @@
     ".": [
       {
         "title": "Job Listing",
-        "docs": "https://docs.rsshub.app/routes/en/other#linkedin-jobs",
+        "docs": "https://docs.rsshub.app/routes/other#linkedin-jobs",
         "source": "/jobs/search/"
       }
     ]
@@ -20038,7 +20088,7 @@
     "www": [
       {
         "title": "LiSA News",
-        "docs": "https://docs.rsshub.app/routes/en/live#lisa",
+        "docs": "https://docs.rsshub.app/routes/live#lisa",
         "source": [
           "/artist/lisa/",
           "/artist/lisa/info/"
@@ -20047,7 +20097,7 @@
       },
       {
         "title": "LiSA Albums",
-        "docs": "https://docs.rsshub.app/routes/en/live#lisa",
+        "docs": "https://docs.rsshub.app/routes/live#lisa",
         "source": [
           "/artist/lisa/",
           "/artist/lisa/discography/"
@@ -20061,7 +20111,7 @@
     "www": [
       {
         "title": "News",
-        "docs": "https://docs.rsshub.app/routes/en/live#lisa",
+        "docs": "https://docs.rsshub.app/routes/live#lisa",
         "source": [
           "/",
           "/info"
@@ -20070,7 +20120,7 @@
       },
       {
         "title": "Albums",
-        "docs": "https://docs.rsshub.app/routes/en/live#lisa",
+        "docs": "https://docs.rsshub.app/routes/live#lisa",
         "source": [
           "/",
           "/discography"
@@ -20497,7 +20547,7 @@
     "www": [
       {
         "title": "Exhibitions",
-        "docs": "https://docs.rsshub.app/routes/en/travel#the-metropolitan-museum-of-art"
+        "docs": "https://docs.rsshub.app/routes/travel#the-metropolitan-museum-of-art"
       }
     ]
   },
@@ -20907,6 +20957,18 @@
           "*"
         ],
         "target": "/mrdx/today"
+      }
+    ]
+  },
+  "mrm.com.cn": {
+    "_name": "华储网",
+    ".": [
+      {
+        "title": "通知",
+        "docs": "https://docs.rsshub.app/finance#hua-chu-wang",
+        "source": [
+          "/:category"
+        ]
       }
     ]
   },
@@ -21730,7 +21792,7 @@
     ".": [
       {
         "title": "Topics",
-        "docs": "https://docs.rsshub.app/routes/en/new-media#nautilus",
+        "docs": "https://docs.rsshub.app/routes/new-media#nautilus",
         "source": [
           "/topics/:tid"
         ],
@@ -21766,7 +21828,7 @@
     ".": [
       {
         "title": "New working paper",
-        "docs": "https://docs.rsshub.app/routes/en/journal#national-bureau-of-economic-research",
+        "docs": "https://docs.rsshub.app/routes/journal#national-bureau-of-economic-research",
         "source": [
           "/papers"
         ],
@@ -21774,7 +21836,7 @@
       },
       {
         "title": "All working paper",
-        "docs": "https://docs.rsshub.app/routes/en/journal#national-bureau-of-economic-research",
+        "docs": "https://docs.rsshub.app/routes/journal#national-bureau-of-economic-research",
         "source": [
           "/papers"
         ],
@@ -22232,7 +22294,7 @@
     "www": [
       {
         "title": "Exhibitions",
-        "docs": "https://docs.rsshub.app/routes/en/travel#new-museum"
+        "docs": "https://docs.rsshub.app/routes/travel#new-museum"
       }
     ]
   },
@@ -23614,21 +23676,21 @@
     ".": [
       {
         "title": "Blog",
-        "docs": "https://docs.rsshub.app/routes/en/new-media#openai",
+        "docs": "https://docs.rsshub.app/routes/new-media#openai",
         "source": "/blog"
       }
     ],
     "chat": [
       {
         "title": "ChatGPT - Release Notes",
-        "docs": "https://docs.rsshub.app/routes/en/new-media#openai",
+        "docs": "https://docs.rsshub.app/routes/new-media#openai",
         "source": "/chat"
       }
     ],
     "research": [
       {
         "title": "Research",
-        "docs": "https://docs.rsshub.app/routes/en/new-media#openai",
+        "docs": "https://docs.rsshub.app/routes/new-media#openai",
         "source": "/research"
       }
     ]
@@ -24038,7 +24100,7 @@
     ".": [
       {
         "title": "User profile",
-        "docs": "https://docs.rsshub.app/routes/en/social-media#picnob",
+        "docs": "https://docs.rsshub.app/routes/social-media#picnob",
         "source": [
           "/profile/:id/*"
         ],
@@ -24062,7 +24124,7 @@
     ".": [
       {
         "title": "Community",
-        "docs": "https://docs.rsshub.app/routes/en/bbs#pikabu",
+        "docs": "https://docs.rsshub.app/routes/bbs#pikabu",
         "source": [
           "/community/:name"
         ],
@@ -24070,7 +24132,7 @@
       },
       {
         "title": "Tag",
-        "docs": "https://docs.rsshub.app/routes/en/bbs#pikabu",
+        "docs": "https://docs.rsshub.app/routes/bbs#pikabu",
         "source": [
           "/tag/:name"
         ],
@@ -24078,7 +24140,7 @@
       },
       {
         "title": "User",
-        "docs": "https://docs.rsshub.app/routes/en/bbs#pikabu",
+        "docs": "https://docs.rsshub.app/routes/bbs#pikabu",
         "source": [
           "/:name"
         ],
@@ -24146,7 +24208,7 @@
     ".": [
       {
         "title": "Search",
-        "docs": "https://docs.rsshub.app/routes/en/picture#pixabay",
+        "docs": "https://docs.rsshub.app/routes/picture#pixabay",
         "source": [
           "/:searchType/search/:q"
         ],
@@ -25124,7 +25186,7 @@
     ".": [
       {
         "title": "Home",
-        "docs": "https://docs.rsshub.app/routes/en/picture#rare-historical-photos",
+        "docs": "https://docs.rsshub.app/routes/picture#rare-historical-photos",
         "source": [
           "/"
         ],
@@ -25137,7 +25199,7 @@
     ".": [
       {
         "title": "User Threads",
-        "docs": "https://docs.rsshub.app/routes/en/social-media#rattibha",
+        "docs": "https://docs.rsshub.app/routes/social-media#rattibha",
         "source": [
           "/:user"
         ],
@@ -25551,11 +25613,19 @@
     ".": [
       {
         "title": "News",
-        "docs": "https://docs.rsshub.app/routes/en/traditional-media#south-china-morning-post",
+        "docs": "https://docs.rsshub.app/routes/traditional-media#south-china-morning-post",
         "source": [
           "/rss/:category_id/feed"
         ],
         "target": "/scmp/:category_id"
+      },
+      {
+        "title": "Topics",
+        "docs": "https://docs.rsshub.app/routes/traditional-media#south-china-morning-post",
+        "source": [
+          "/topics/:topic"
+        ],
+        "target": "/scmp/topics/:topic"
       }
     ]
   },
@@ -26034,7 +26104,7 @@
     ".": [
       {
         "title": "Summary",
-        "docs": "https://docs.rsshub.app/routes/en/finance#seeking-alpha",
+        "docs": "https://docs.rsshub.app/routes/finance#seeking-alpha",
         "source": [
           "/symbol/:symbol/:category",
           "/symbol/:symbol/earnings/:category"
@@ -27256,7 +27326,7 @@
     ".": [
       {
         "title": "Articles",
-        "docs": "https://docs.rsshub.app/routes/en/programming#a-list-apart",
+        "docs": "https://docs.rsshub.app/routes/programming#a-list-apart",
         "source": [
           "/articles/"
         ],
@@ -27264,7 +27334,7 @@
       },
       {
         "title": "Category",
-        "docs": "https://docs.rsshub.app/routes/en/programming#a-list-apart",
+        "docs": "https://docs.rsshub.app/routes/programming#a-list-apart",
         "source": [
           "/category/:category"
         ],
@@ -27918,7 +27988,7 @@
     "web": [
       {
         "title": "Daily Updates News",
-        "docs": "https://docs.rsshub.app/routes/en/finance#stock-edge",
+        "docs": "https://docs.rsshub.app/routes/finance#stock-edge",
         "source": [
           "/daily-updates/news"
         ],
@@ -27966,7 +28036,7 @@
     "blog": [
       {
         "title": "Articles",
-        "docs": "https://docs.rsshub.app/routes/en/blog#stratechery-by-ben-thompson"
+        "docs": "https://docs.rsshub.app/routes/blog#stratechery-by-ben-thompson"
       }
     ]
   },
@@ -28655,7 +28725,7 @@
     ".": [
       {
         "title": "Latest Content",
-        "docs": "https://docs.rsshub.app/routes/en/new-media#techpowerup",
+        "docs": "https://docs.rsshub.app/routes/new-media#techpowerup",
         "source": [
           "/"
         ],
@@ -28663,7 +28733,7 @@
       },
       {
         "title": "Reviews",
-        "docs": "https://docs.rsshub.app/routes/en/new-media#techpowerup",
+        "docs": "https://docs.rsshub.app/routes/new-media#techpowerup",
         "source": [
           "/review/search",
           "/review"
@@ -28877,7 +28947,7 @@
     ".": [
       {
         "title": "Topic",
-        "docs": "https://docs.rsshub.app/routes/en/traditional-media#the-hindu",
+        "docs": "https://docs.rsshub.app/routes/traditional-media#the-hindu",
         "source": [
           "/topic/:topic"
         ],
@@ -29338,7 +29408,7 @@
     ".": [
       {
         "title": "User timeline",
-        "docs": "https://docs.rsshub.app/routes/en/social-media#threads",
+        "docs": "https://docs.rsshub.app/routes/social-media#threads",
         "source": [
           "/:user"
         ]
@@ -29364,7 +29434,7 @@
     ".": [
       {
         "title": "User",
-        "docs": "https://docs.rsshub.app/routes/en/social-media#tiktok",
+        "docs": "https://docs.rsshub.app/routes/social-media#tiktok",
         "source": [
           "/:user"
         ],
@@ -30610,7 +30680,7 @@
     ".": [
       {
         "title": "News Flow",
-        "docs": "https://docs.rsshub.app/routes/en/finance#unusual-whales",
+        "docs": "https://docs.rsshub.app/routes/finance#unusual-whales",
         "source": [
           "/news",
           "/"
@@ -30730,7 +30800,7 @@
     ".": [
       {
         "title": "Random words",
-        "docs": "https://docs.rsshub.app/routes/en/other#urban-dictionary",
+        "docs": "https://docs.rsshub.app/routes/other#urban-dictionary",
         "source": [
           "/random.php",
           "/"
@@ -30995,7 +31065,7 @@
     "verfgh": [
       {
         "title": "Press releases",
-        "docs": "https://docs.rsshub.app/routes/en/government#constitutional-court-of-baden-wurttemberg-germany",
+        "docs": "https://docs.rsshub.app/routes/government#constitutional-court-of-baden-wurttemberg-germany",
         "source": [
           "/de/presse-und-service/pressemitteilungen/"
         ],
@@ -33069,7 +33139,7 @@
     "www": [
       {
         "title": "News",
-        "docs": "https://docs.rsshub.app/routes/en/live#yoasobi",
+        "docs": "https://docs.rsshub.app/routes/live#yoasobi",
         "source": [
           "/",
           "/:category"
@@ -33078,7 +33148,7 @@
       },
       {
         "title": "Biography",
-        "docs": "https://docs.rsshub.app/routes/en/live#yoasobi",
+        "docs": "https://docs.rsshub.app/routes/live#yoasobi",
         "source": [
           "/",
           "/:category"
@@ -33087,7 +33157,7 @@
       },
       {
         "title": "Live",
-        "docs": "https://docs.rsshub.app/routes/en/live#yoasobi",
+        "docs": "https://docs.rsshub.app/routes/live#yoasobi",
         "source": [
           "/",
           "/live"
@@ -33096,7 +33166,7 @@
       },
       {
         "title": "Media",
-        "docs": "https://docs.rsshub.app/routes/en/live#yoasobi",
+        "docs": "https://docs.rsshub.app/routes/live#yoasobi",
         "source": [
           "/",
           "/media"
