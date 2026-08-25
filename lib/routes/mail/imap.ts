@@ -1,4 +1,4 @@
-import { ImapFlow } from 'imapflow';
+import { ImapFlow, type MailboxObject } from 'imapflow';
 import { simpleParser } from 'mailparser';
 
 import { config } from '@/config';
@@ -7,6 +7,13 @@ import type { Route } from '@/types';
 import cache from '@/utils/cache';
 import logger from '@/utils/logger';
 import { parseDate } from '@/utils/parse-date';
+
+interface MailConfig {
+    username: string;
+    port: number | string;
+    password?: string;
+    host?: string;
+}
 
 export const route: Route = {
     path: '/imap/:email/:folder{.+}?',
@@ -25,7 +32,7 @@ export const route: Route = {
 async function handler(ctx) {
     const { email, folder = 'INBOX' } = ctx.req.param();
     const { limit = 10 } = ctx.req.query();
-    const mailConfig = {
+    const mailConfig: MailConfig = {
         username: email,
         port: 993,
         ...Object.fromEntries(new URLSearchParams(config.email.config[email.replaceAll(/[.@]/g, '_')])),
@@ -37,7 +44,7 @@ async function handler(ctx) {
 
     const client = new ImapFlow({
         host: mailConfig.host,
-        port: Number.parseInt(mailConfig.port),
+        port: Number.parseInt(String(mailConfig.port)),
         secure: true,
         auth: {
             user: mailConfig.username,
@@ -55,7 +62,7 @@ async function handler(ctx) {
     try {
         await client.connect();
     } catch (error) {
-        throw new Error(error.responseText, { cause: error });
+        throw new Error((error as { responseText: string }).responseText, { cause: error });
     }
 
     /**
@@ -72,10 +79,10 @@ async function handler(ctx) {
         }
       ]
     */
-    const mails = [];
+    const mails: any[] = [];
     const lock = await client.getMailboxLock(folder);
     try {
-        const messages = client.fetch(`${Math.max(client.mailbox.exists - limit + 1, 1)}:*`, { envelope: true, source: true, uid: true });
+        const messages = client.fetch(`${Math.max((client.mailbox as MailboxObject).exists - limit + 1, 1)}:*`, { envelope: true, source: true, uid: true });
         for await (const message of messages) {
             mails.push(message);
         }
@@ -100,7 +107,7 @@ async function handler(ctx) {
                     title: item.envelope.subject,
                     description,
                     pubDate: parseDate(item.envelope.date),
-                    author: parsed.from.text,
+                    author: parsed.from!.text,
                     guid: `mail:${email}:${item.envelope.messageId}`,
                 };
             })
